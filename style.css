@@ -1,0 +1,52 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+#numOfUsers {
+  align-self: center;
+  flex: 1;
+  border-radius: 3px;
+  padding: 10px;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+
+#download {
+  margin-top: 3px;
+  padding: 10px 90px;
+  align-self: center;
+  flex: 1;
+  border-radius: 15px;
+  font-size: 25px;
+  background-color: rgb(255, 252, 161);
+}
+
+#status {
+  align-self: center;
+  flex: 1;
+  visibility: hidden;
+  font-weight: 1000;
+}
+
+#users {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.user{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  max-width: 19.75%;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+
